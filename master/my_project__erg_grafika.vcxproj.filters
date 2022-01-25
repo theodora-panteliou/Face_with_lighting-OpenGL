@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\10.2.instancing.fs" />
+    <None Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\10.2.instancing.vs" />
+    <None Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\boxShader.fs" />
+    <None Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\boxShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5BE268A-553D-3DCC-8688-A9940E41444F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

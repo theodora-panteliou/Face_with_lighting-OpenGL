@@ -1,0 +1,5 @@
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/STB_IMAGE.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/GLAD.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/my_project__erg_grafika.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/ALL_BUILD.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/ZERO_CHECK.dir

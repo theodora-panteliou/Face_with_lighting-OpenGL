@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C8401DC-8437-38CB-B9F7-57EAF7B71342}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>STB_IMAGE</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">STB_IMAGE.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">STB_IMAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">STB_IMAGE.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">STB_IMAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">STB_IMAGE.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">STB_IMAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">STB_IMAGE.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">STB_IMAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"-std=c++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"-std=c++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"-std=c++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"-std=c++11</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\configuration;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Dora/Documents/ErgaGrafika/ErgaGrafika/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/ErgaGrafika/ErgaGrafika -BE:/Dora/Documents/ErgaGrafika/ErgaGrafika/master --check-stamp-file E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindASSIMP.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLFW3.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLM.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\root_directory.h.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\visualstudio.vcxproj.user.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Dora/Documents/ErgaGrafika/ErgaGrafika/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/ErgaGrafika/ErgaGrafika -BE:/Dora/Documents/ErgaGrafika/ErgaGrafika/master --check-stamp-file E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindASSIMP.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLFW3.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLM.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\root_directory.h.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\visualstudio.vcxproj.user.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Dora/Documents/ErgaGrafika/ErgaGrafika/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/ErgaGrafika/ErgaGrafika -BE:/Dora/Documents/ErgaGrafika/ErgaGrafika/master --check-stamp-file E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindASSIMP.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLFW3.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLM.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\root_directory.h.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\visualstudio.vcxproj.user.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Dora/Documents/ErgaGrafika/ErgaGrafika/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/ErgaGrafika/ErgaGrafika -BE:/Dora/Documents/ErgaGrafika/ErgaGrafika/master --check-stamp-file E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindASSIMP.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLFW3.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\cmake\modules\FindGLM.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\root_directory.h.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\configuration\visualstudio.vcxproj.user.in;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\3.19.4\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\ZERO_CHECK.vcxproj">
+      <Project>{6014D22C-61E5-3F14-933D-A5D68C76AE11}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

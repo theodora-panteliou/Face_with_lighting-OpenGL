@@ -1,0 +1,47 @@
+﻿  Building Custom Rule E:/Dora/Documents/ErgaGrafika/ErgaGrafika/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '/EH;'
+cl : command line warning D9002: ignoring unknown option '/EH-'
+cl : command line warning D9002: ignoring unknown option '/EHt'
+cl : command line warning D9002: ignoring unknown option '/EHd'
+cl : command line warning D9002: ignoring unknown option '/EH='
+cl : command line warning D9002: ignoring unknown option '/EH+'
+cl : command line warning D9002: ignoring unknown option '/EH+'
+cl : command line warning D9002: ignoring unknown option '/EH1'
+cl : command line warning D9002: ignoring unknown option '/EH1'
+  test.cpp
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes\learnopengl/filesystem.h(23,35): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes\learnopengl/shader.h(56,40): warning C4101: 'e': unreferenced local variable
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\includes\learnopengl/mesh.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(96,19): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(186,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(215,12): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(216,12): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(262,16): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(263,17): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(264,14): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(265,14): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(330,16): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(332,16): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(350,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(351,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(355,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(356,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(358,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(359,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\ErgaGrafika\ErgaGrafika\src\my_project\erg_grafika\test.cpp(368,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_thread.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(osmesa_context.obj)' or at 'E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\glfw.pdb'; linking object as if no debug info
+  my_project__erg_grafika.vcxproj -> E:\Dora\Documents\ErgaGrafika\ErgaGrafika\bin\my_project\Debug\my_project__erg_grafika.exe

@@ -1,0 +1,10 @@
+^E:\DORA\DOCUMENTS\ERGAGRAFIKA\ERGAGRAFIKA\MASTER\CMAKEFILES\A636831375DA3DA15B40863FBFE8280A\GENERATE.STAMP.RULE
+setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/ErgaGrafika/ErgaGrafika -BE:/Dora/Documents/ErgaGrafika/ErgaGrafika/master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Dora/Documents/ErgaGrafika/ErgaGrafika/master/Ergasia.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

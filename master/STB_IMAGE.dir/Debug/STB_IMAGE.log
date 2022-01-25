@@ -1,0 +1,12 @@
+﻿  Building Custom Rule E:/Dora/Documents/ErgaGrafika/ErgaGrafika/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '/EH;'
+cl : command line warning D9002: ignoring unknown option '/EH-'
+cl : command line warning D9002: ignoring unknown option '/EHt'
+cl : command line warning D9002: ignoring unknown option '/EHd'
+cl : command line warning D9002: ignoring unknown option '/EH='
+cl : command line warning D9002: ignoring unknown option '/EH+'
+cl : command line warning D9002: ignoring unknown option '/EH+'
+cl : command line warning D9002: ignoring unknown option '/EH1'
+cl : command line warning D9002: ignoring unknown option '/EH1'
+  stb_image.cpp
+  STB_IMAGE.vcxproj -> E:\Dora\Documents\ErgaGrafika\ErgaGrafika\master\Debug\STB_IMAGE.lib

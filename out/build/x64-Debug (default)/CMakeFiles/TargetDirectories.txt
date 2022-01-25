@@ -1,0 +1,5 @@
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/out/build/x64-Debug (default)/CMakeFiles/STB_IMAGE.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/out/build/x64-Debug (default)/CMakeFiles/GLAD.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/out/build/x64-Debug (default)/CMakeFiles/4.advanced_opengl__10.2.asteroids.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+E:/Dora/Documents/ErgaGrafika/ErgaGrafika/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
