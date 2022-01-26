@@ -78,6 +78,10 @@ public:
             // and finally bind the texture
             glBindTexture(GL_TEXTURE_2D, textures[i].id);
         }
+        if (textures.size() == 0)
+            glUniform3f(glGetUniformLocation(shader.ID, "kd"), 0.0f, 0.0f, 0.0f);
+        else
+            glUniform3f(glGetUniformLocation(shader.ID, "kd"), 1.0f, 1.0f, 1.0f);
         
         // draw mesh
         glBindVertexArray(VAO);

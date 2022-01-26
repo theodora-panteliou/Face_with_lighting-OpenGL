@@ -25,7 +25,7 @@ in vec2 TexCoords;
 uniform vec3 viewPos;
 uniform Material material;
 uniform Light light;
-
+uniform vec3 kd;
 
 void main()
 {
@@ -52,5 +52,5 @@ void main()
     specular *= attenuation;   
 
     vec3 result = ambient + diffuse +specular;
-    FragColor = vec4(result,1.0);
+    FragColor = vec4(result,1.0)* vec4(kd,1.0);
 }
