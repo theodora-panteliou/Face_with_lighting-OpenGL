@@ -53,8 +53,6 @@ Sphere::Sphere(unsigned int xSegments, unsigned int ySegments)
         }
     }
 
-
-    // You must implement this function!
     setupSphere();
 }
 
@@ -96,13 +94,13 @@ void Sphere::setupSphere() {
 
 void Sphere::Draw() {
     // draw
-    glActiveTexture(GL_TEXTURE5);
+    glActiveTexture(GL_TEXTURE0);
     glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, static_cast<unsigned int>(Indices.size()), GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
 
-    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     // always good practice to set everything back to defaults once configured.
+    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     glActiveTexture(GL_TEXTURE0);
 }
