@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.8)
 cmake_policy(VERSION 2.8)
 
-project (Ergasia)
+project (FaceWithLighting)
 
 IF(NOT CMAKE_BUILD_TYPE)
   SET(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build (Debug or Release)" FORCE)
@@ -55,13 +55,12 @@ else()
 endif(WIN32)
 
 set(CHAPTERS  
-    my_project
+    project
 )
 
 
-set(my_project
-
-    erg_grafika
+set(project
+    face_with_lighting
 )
 
 
