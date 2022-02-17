@@ -1,0 +1,2 @@
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\build\Debug\GLAD.pdb
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\build\GLAD.dir\Debug\GLAD.pdb

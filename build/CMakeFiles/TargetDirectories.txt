@@ -1,0 +1,5 @@
+E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/CMakeFiles/STB_IMAGE.dir
+E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/CMakeFiles/GLAD.dir
+E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/CMakeFiles/project__face_with_lighting.dir
+E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/CMakeFiles/ALL_BUILD.dir
+E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/CMakeFiles/ZERO_CHECK.dir

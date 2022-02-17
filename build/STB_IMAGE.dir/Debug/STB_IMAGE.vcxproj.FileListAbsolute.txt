@@ -1,0 +1,2 @@
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\build\Debug\STB_IMAGE.pdb
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\build\STB_IMAGE.dir\Debug\STB_IMAGE.pdb

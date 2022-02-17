@@ -1,0 +1,47 @@
+﻿  Building Custom Rule E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '/EH;'
+cl : command line warning D9002: ignoring unknown option '/EH-'
+cl : command line warning D9002: ignoring unknown option '/EHt'
+cl : command line warning D9002: ignoring unknown option '/EHd'
+cl : command line warning D9002: ignoring unknown option '/EH='
+cl : command line warning D9002: ignoring unknown option '/EH+'
+cl : command line warning D9002: ignoring unknown option '/EH+'
+cl : command line warning D9002: ignoring unknown option '/EH1'
+cl : command line warning D9002: ignoring unknown option '/EH1'
+  Sphere.cpp
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\includes\learnopengl/shader.h(56,40): warning C4101: 'e': unreferenced local variable
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\Sphere.cpp(42,23): warning C4018: '<': signed/unsigned mismatch
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\Sphere.cpp(44,27): warning C4018: '<': signed/unsigned mismatch
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\Sphere.cpp(10,12): warning C4101: 'vertex': unreferenced local variable
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\Sphere.cpp(11,15): warning C4101: 'vector': unreferenced local variable
+  main.cpp
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\includes\learnopengl/filesystem.h(23,35): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\includes\learnopengl/shader.h(56,40): warning C4101: 'e': unreferenced local variable
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\includes\learnopengl/mesh.h(88,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(104,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(213,16): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(216,16): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(237,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(238,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(242,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(243,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(245,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(246,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\src\project\face_with_lighting\main.cpp(255,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_thread.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(osmesa_context.obj)' or at 'E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\glfw.pdb'; linking object as if no debug info
+  project__face_with_lighting.vcxproj -> E:\Dora\Documents\grafika\Face_with_lighting-OpenGL\bin\project\Debug\project__face_with_lighting.exe

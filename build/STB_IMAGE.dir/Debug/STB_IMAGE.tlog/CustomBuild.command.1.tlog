@@ -1,0 +1,10 @@
+^E:\DORA\DOCUMENTS\GRAFIKA\FACE_WITH_LIGHTING-OPENGL\CMAKELISTS.TXT
+setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/grafika/Face_with_lighting-OpenGL -BE:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build --check-stamp-file E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^E:\DORA\DOCUMENTS\GRAFIKA\FACE_WITH_LIGHTING-OPENGL\BUILD\CMAKEFILES\4DBF68D636EC913E46116EB51CA43F72\GENERATE.STAMP.RULE
+setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Dora/Documents/grafika/Face_with_lighting-OpenGL -BE:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Dora/Documents/grafika/Face_with_lighting-OpenGL/build/FaceWithLighting.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
